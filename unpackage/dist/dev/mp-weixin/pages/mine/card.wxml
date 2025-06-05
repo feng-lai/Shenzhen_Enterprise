@@ -1,0 +1,1 @@
+<view><web-view src="{{'https://xcx.huitengzx.com/card?api_token='+api_token}}"></web-view></view>

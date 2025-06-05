@@ -1,0 +1,254 @@
+<script>
+	export default {
+		onLaunch: function() {
+			
+		},
+		onShow: function() {
+			
+		},
+		onHide: function() {
+			
+		},
+		globalData: {
+			url: 'https://xcx.huitengzx.com/api/v2/',
+			api_token: '',
+			phone:''
+		}, 
+		methods:{
+			//检查是否登录
+			checkLogin: function() {
+				if (!this.globalData.api_token) {
+					uni.showModal({
+						content: '请先登录',
+						success(res) {
+							if (res.confirm) {
+								uni.navigateTo({
+									url: '/pages/login/login'
+								});
+							} else {
+								uni.navigateTo({
+									url: '/pages/index/index'
+								});
+							}
+						}
+
+					});
+					return;
+				}
+			},
+			//检查是否登录
+			checkLoginReback: function() {
+				if (!this.globalData.api_token) {
+					uni.showModal({
+						content: '请先登录',
+						success(res) {
+							if (res.confirm) {
+								uni.navigateTo({
+									url: '/pages/login/login'
+								});
+							} else {
+								uni.navigateBack()
+							}
+						}
+			
+					});
+					return;
+				}
+			},
+			//检查是否登录
+			checkLogin2: function() {
+				if (!this.globalData.api_token) {
+					uni.showModal({
+						content: '请先登录',
+						success(res) {
+							if (res.confirm) {
+								uni.navigateTo({
+									url: '/pages/login/login'
+								});
+							}
+						}
+			
+					});
+					return;
+				}
+			},
+			isLogin() {
+				var that = this
+				return new Promise(function(resolve, reject) {
+					wx.getStorage({
+						key: 'api_token',
+						success(res) {
+							that.globalData.api_token = res.data
+							resolve();
+						},
+						complete() {
+							resolve();
+						}
+					})
+				})
+			},
+			getPhone() {
+				var that = this
+				return new Promise(function(resolve, reject) {
+					wx.getStorage({
+						key: 'phone',
+						success(res) {
+							that.globalData.phone = res.data
+							resolve();
+						},
+						complete() {
+							resolve();
+						}
+					})
+				})
+			}
+		}
+	}
+</script>
+<style>
+	page {
+		background-color: #ffffff;
+		font-size: 26rpx;
+		max-width: 640px;
+		margin: 0 auto;
+	}
+	.new_pay{
+		background-color: #FE4145;
+		width: 600rpx;
+		height: 100rpx;
+		font-size: 44rpx;
+		border-radius: 28rpx;
+		color: #fff;
+		line-height: 100rpx;
+	}
+	
+	.other_btn{
+		background-color: #4963F4;
+		width: 200rpx;
+		height: 60rpx;
+		font-size: 32rpx;
+		color: #fff;
+		line-height: 60rpx;
+		display: inline-block;
+	}
+	
+	/*每个页面公共css */
+	.left {
+		float: left;
+	}
+
+	.right {
+		float: right;
+	}
+
+	.clear {
+		clear: both;
+	}
+
+	.modelBg {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background-color: #000000;
+		opacity: 0;
+		transition: opacity 0.7s;
+		top: 0;
+		left: 0;
+		z-index: 998;
+		display: none;
+	}
+
+	.modelBgs {
+		opacity: 0.7;
+		display: block;
+	}
+
+	li {
+		list-style: none;
+	}
+
+	ul {
+		padding-inline-start: 0;
+	}
+
+	uni-tabbar .uni-tabbar__label {
+		overflow: hidden;
+	}
+
+	.pay_type {
+		position: fixed;
+		bottom: -100%;
+		left: 0;
+		background-color: #ffffff;
+		z-index: 999;
+		width: 100%;
+		transition: bottom 0.5s;
+	}
+
+	.pay_types {
+		bottom: 0;
+	}
+
+	.pay_type .title {
+		padding: 0 20rpx;
+		height: 80rpx;
+		line-height: 80rpx;
+		text-align: center;
+		font-size: 28rpx;
+		border-bottom: 1rpx solid #f6f6f6;
+		position: relative;
+	}
+
+	.pay_type .close {
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 80rpx;
+		line-height: 80rpx;
+	}
+
+	.pay_type .row {
+		margin: 10rpx 0;
+		height: 80rpx;
+		line-height: 80rpx;
+		padding: 0 20rpx;
+	}
+
+	.pay_type text {
+		vertical-align: middle;
+		margin-left: 30rpx;
+	}
+
+	.pay_type image {
+		width: 50rpx;
+		height: 50rpx;
+		vertical-align: middle;
+	}
+
+	.pay_type .btn {
+		text-align: center;
+		height: 180rpx;
+		line-height: 180rpx;
+	}
+
+	.pay_type .btn text {
+		display: inline-block;
+		width: 500rpx;
+		height: 83rpx;
+		text-align: center;
+		line-height: 83rpx;
+		color: #ffffff;
+		background: linear-gradient(to right, #fa8b53, #fa4b6d);
+	}
+
+	.pay_type .price {
+		text-align: center;
+		font-size: 40rpx;
+		font-weight: 700;
+		color: #333333;
+		height: 100rpx;
+		line-height: 100rpx;
+	}
+	
+	
+</style>

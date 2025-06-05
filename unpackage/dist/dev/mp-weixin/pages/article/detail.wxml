@@ -1,0 +1,1 @@
+<view><view style="width:750rpx;overflow:hidden;"><web-view src="{{'https://xcx.huitengzx.com/article?id='+id+'&api_token='+api_token+'&invite_id='+invite_id}}"></web-view></view></view>

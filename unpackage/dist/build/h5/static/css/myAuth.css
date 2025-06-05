@@ -1,0 +1,48 @@
+.top {
+	width: 100%;
+	z-index: 2;
+	position: fixed;
+	top: 0;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+.top input {
+	width: 630rpx;
+	border-radius: 30rpx;
+	height: 58rpx;
+	line-height: 58rpx;
+	color: #696969;
+	background: #f5f5f5 url('../../static/image/search1.png') no-repeat left 37rpx center;
+	background-size: 28rpx 28rpx;
+	padding-left: 80rpx;
+	display: inline-block;
+	margin: 20rpx 0;
+	text-align: left;
+	font-size: 30rpx;
+}
+
+.swiper {
+	height: 364rpx;
+	margin-top: 98rpx;
+}
+
+.swiper image {
+	height: 364rpx;
+	width: 100%;
+}
+.record{
+	border-top: 20rpx #f5f5f5 solid;
+}
+.record .title{
+	line-height: 50rpx;
+	padding: 0 20rpx;
+}
+.record .row{
+	border-bottom: 1rpx #f5f5f5 solid;
+	line-height: 80rpx;
+	text-align: center;
+}
+.record .row .text{
+	padding: 0 20rpx;
+}

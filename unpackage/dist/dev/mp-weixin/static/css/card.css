@@ -1,0 +1,58 @@
+.top{
+	height:138rpx;
+	line-height: 138rpx;
+	padding: 0 20rpx;
+}
+.top .left{
+	height: 138rpx;
+}
+.top .left image{
+	height: 110rpx;
+	width: 123rpx;
+	border-radius: 110rpx;
+	vertical-align: middle;
+}
+.top .left .row{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 50rpx;
+	margin-left: 27rpx;
+	font-size: 30rpx;
+}
+.top .left .row .status{
+	color:#479ff9;
+}
+.form{
+	padding: 0 20rpx;
+	
+}
+.half{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.prices input{
+	text-align: center;
+}
+.half .row{
+	margin: 0 20rpx;
+}
+.u-border-bottom:after {
+    border: 0!important;
+}
+.company{
+	padding: 20rpx;
+	text-align: center;
+	font-size: 36rpx;
+	font-weight: bold;
+}
+.input .u-input--border{
+	border: 0!important;
+	border-bottom: 1px solid #dcdfe6!important;
+	border-radius: 0!important;
+}
+textarea{
+	width: 600rpx!important;
+	display: block!important;
+}

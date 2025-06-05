@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的短信模板",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "e-modal": "/components/e-modal/e-modal"
+  }
+}

@@ -1,0 +1,169 @@
+.top{
+	height:138rpx;
+	line-height: 138rpx;
+	padding: 0 20rpx;
+}
+.top image{
+	height: 110rpx;
+	width: 110rpx;
+	border-radius: 110rpx;
+	vertical-align: middle;
+	margin-right: 20rpx;
+}
+.top>uni-icons{
+	margin-left: 10rpx;
+	vertical-align: middle;
+}
+
+.row{
+	border-top: 20rpx solid #f5f5f5;
+	padding:20rpx;
+}
+
+.row .title{
+	border-bottom: 1rpx solid #f5f5f5;
+	padding-bottom: 20rpx;
+	font-size: 28rpx;
+}
+.row .detail{
+	padding-top: 20rpx;
+	font-size: 26rpx;
+	line-height: 40rpx;
+	min-height: 50rpx;
+}
+
+.row .detail .left{
+	width: 500rpx;
+}
+
+.row button{
+	height: 50rpx;
+	line-height: 50rpx;
+	vertical-align: middle;
+	font-size: 26rpx;
+}
+
+.row .detail .text{
+	display: inline-block;
+	line-height: 50rpx;
+	border-radius: 10rpx;
+	padding: 0 20rpx;
+	border: 1rpx solid #f5f5f5;
+	margin-right: 20rpx;
+	margin-bottom: 20rpx;
+	font-size: 24rpx;
+}
+
+.row .imgList{
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap:wrap;
+}
+
+.row .imgList .img{
+	width: 160rpx;
+	padding: 10rpx;
+}
+
+.row .imgList .img .option{
+	height: 50rpx;
+	line-height: 50rpx;
+}
+
+.row .imgList .img .row{
+	border: 0;
+	padding: 0;
+	display: flex;
+	justify-content:space-around;
+}
+
+.row .imgList text{
+	padding: 0;
+	border: 0;
+	margin-right: 0;
+}
+
+.row .imgList image{
+	width: 160rpx;
+	height: 160rpx;
+}
+.row .imgList .add{
+	width: 160rpx;
+	height: 210rpx;
+	line-height: 210rpx;
+	border: 1rpx solid #f5f5f5;
+	text-align: center;
+}
+.row .imgList .add text{
+	vertical-align: middle;
+}
+
+.endit{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+.endit .bg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: #000000;
+	opacity: 0.7;
+}
+.endit .content{
+	background-color: #FFFFFF;
+}
+
+.model{
+	padding: 20rpx;
+}
+
+.group{
+	padding: 0 20rpx;
+	line-height: 100rpx;
+	border-bottom: 1rpx solid #e4e4e4;
+}
+.group .left{
+	max-width: 500rpx;
+	margin-right: 20rpx;
+}
+
+.group .left .preview{
+	line-height: 100rpx;
+}
+
+.group button{
+	vertical-align: middle;
+	height: 50rpx;
+	line-height: 50rpx;
+	font-size: 26rpx;
+}
+
+.group image{
+	width: 100rpx;
+	height: 100rpx;
+}
+
+.group input{
+	height: 100rpx;
+	line-height: 100rpx;
+}
+
+.submit{
+	text-align: center;
+	margin: 30rpx 0;
+}
+
+.submit>button{
+	margin-right: 20rpx;
+}
+.button::after { 
+	border: none; 
+}
+.button{
+	background-color: #FFFFFF;
+}

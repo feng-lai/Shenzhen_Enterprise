@@ -1,0 +1,135 @@
+.top{
+	height:138rpx;
+	line-height: 138rpx;
+	padding: 0 20rpx;
+}
+.top .left{
+	height: 138rpx;
+}
+.top .left image{
+	height: 110rpx;
+	width: 110rpx;
+	border-radius: 110rpx;
+	vertical-align: middle;
+}
+.top .left .row{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 50rpx;
+	margin-left: 27rpx;
+	font-size: 30rpx;
+}
+.top .left .row .status{
+	color:#479ff9;
+}
+.list{
+	display: flex;
+	justify-content:space-around;
+	height: 100rpx;
+	line-height: 100rpx;
+}
+.cum{
+	padding: 0 20rpx;
+}
+
+.cum .content{
+	background-color: #6e96ee;
+	border-radius: 20rpx;
+	padding: 20rpx;
+	color:#ffffff;
+	line-height: 50rpx;
+}
+.cum button{
+	vertical-align: middle;
+	margin-left: 20rpx;
+}
+.cum .content uni-icons{
+	vertical-align: middle;
+	margin-right: 5rpx;
+}
+.com{
+	display: none;
+	text-align: center;
+	margin-top: 30rpx;
+}
+.com>.title{
+	font-size: 28rpx;
+	padding: 0 20rpx;
+	padding-top: 40rpx;
+}
+.com button{
+	margin-top: 30rpx;
+}
+
+.info{
+	margin-top: 30rpx;
+}
+
+.info .title{
+	padding: 0 20rpx;
+	font-size: 30rpx;
+}
+
+.group{
+	padding: 0 20rpx;
+	line-height: 100rpx;
+}
+.group .left{
+	max-width: 500rpx;
+}
+
+.group input {
+    height: 100rpx;
+    line-height: 100rpx;
+}
+
+.group .desc{
+	height: 500rpx;
+}
+
+.group .text{
+	width: 130rpx;
+	text-align: left;
+	text-align: right;
+	margin-right: 20rpx;
+}
+
+.group .tags{
+	display: inline-block;
+	height: 60rpx;
+	line-height: 60rpx;
+	border-radius: 10rpx;
+	padding: 0 20rpx;
+	border: 1rpx solid #f5f5f5;
+	margin-right: 10rpx;
+}
+
+.group image{
+	height: 200rpx;
+	max-width: 200rpx;
+}
+
+.group button{
+	vertical-align: middle;
+}
+
+.submit{
+	text-align: center;
+	margin: 30rpx 0;
+}
+
+.record{
+	border-top: 20rpx #f5f5f5 solid;
+}
+.record .title{
+	line-height: 50rpx;
+	padding: 0 20rpx;
+}
+.record .row{
+	border-bottom: 1rpx #f5f5f5 solid;
+	line-height: 80rpx;
+	text-align: center;
+}
+.record .row .text{
+	padding: 0 20rpx;
+}

@@ -1,0 +1,196 @@
+.title{
+	margin-top: 180rpx;
+	font-size: 85rpx;
+	text-shadow: 3px 5px 5px #656B79; 
+	font-weight: bold;
+	letter-spacing: 5rpx;
+}
+.num{
+	font-size: 48rpx;
+	margin-top: 30rpx;
+	text-shadow: 1px 0px 2px #656B79; 
+	letter-spacing: 5rpx;
+}
+.invite{
+	position: fixed;
+	bottom: 277rpx;
+	width: 100%;
+}
+.invite .btns{
+	display: flex;
+	width: 400rpx;
+	margin: 0 auto;
+	height: 84rpx;
+	line-height: 84rpx;
+	background-color: #fed649;
+	border-radius: 42rpx;
+	padding: 0 97rpx;
+	color: #db4626;
+	font-size: 36rpx;
+	justify-content: center;
+	align-items: center;
+}
+
+.invite button{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 36rpx;
+	color: #db4626;
+	background-color: initial;
+	line-height: initial;
+}
+
+.invite button::after{
+	border:0;
+}
+
+.invite .btns image{
+	width: 32rpx;
+	height: 32rpx;
+	margin-left: 17rpx;
+}
+.tip{
+	position: fixed;
+	bottom: 160rpx;
+	width: 100%;
+	color: #ffe55b;
+	font-size: 32rpx;
+}
+.close{
+	position: fixed;
+	bottom: 106rpx;
+	width: 100%;
+	color: #ffe55b;
+	font-size: 32rpx;
+}
+
+.page2 .title{
+	font-size: 76rpx;
+	letter-spacing: 2rpx;
+}
+
+.page2 .num{
+	font-size: 36rpx;
+	letter-spacing: 5rpx;
+}
+
+.content{
+	width: 676rpx;
+	margin: 0 auto;
+	margin-top: 473rpx;
+	border-radius: 32rpx;
+	background-color: #ffb343;
+	position: relative;
+	padding-bottom: 46rpx;
+}
+
+.content .red_bag{
+	width: 676rpx;
+	height:190rpx;
+	position: absolute;
+	top: -40rpx;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content .red_bag image{
+	width: 516rpx;
+	height:190rpx;
+}
+
+.content .text1{
+	font-size: 68rpx;
+	color: #db4625;
+	padding-top: 200rpx;
+}
+
+.content .text2{
+	font-size: 133rpx;
+	margin:36rpx 0;
+	color: #db4625;
+}
+
+.content .line{
+	height: 2rpx;
+	background-color: #db6e24;
+	width: 620rpx;
+	margin: 0 auto;
+}
+
+.content .time{
+	margin: 58rpx 0;
+	font-size: 30rpx;
+	color: #000;
+}
+
+.content .time text{
+	margin-left: 10rpx;
+}
+
+.content .btns{
+	display: flex;
+	width: 400rpx;
+	margin: 0 auto;
+	height: 84rpx;
+	line-height: 84rpx;
+	background-color: #fed649;
+	border-radius: 42rpx;
+	padding: 0 97rpx;
+	color: #db4626;
+	font-size: 36rpx;
+	justify-content: center;
+	align-items: center;
+}
+
+.content button{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 36rpx;
+	color: #db4626;
+	background-color: initial;
+	line-height: initial;
+}
+
+.content button::after{
+	border:0;
+}
+
+.content .btns image{
+	width: 32rpx;
+	height: 32rpx;
+	margin-left: 17rpx;
+}
+
+.lines{
+	height: 2rpx;
+	background-color: #fff;
+	width: 690rpx;
+	margin: 30rpx auto;
+}
+
+.bottom{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 30rpx;
+	text-align: left;
+	padding-bottom: 60rpx;
+	font-size: 26rpx;
+	color: #fff;
+	line-height: 60rpx;
+}
+
+.bottom .big{
+	font-size: 36rpx;
+	font-weight: bold;
+	line-height: initial;
+	margin-bottom: 20rpx;
+}
+
+.bottom image{
+	width: 227rpx;
+	height: 227rpx;
+}

@@ -1,0 +1,108 @@
+.swiper {
+	height: 200rpx;
+}
+
+.swiper image {
+	height: 200rpx;
+	width: 100%;
+}
+.u-form-item{
+	padding: 20rpx!important;
+}
+.line{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10rpx;
+	width: 100rpx;
+	border-bottom: 1rpx solid #333333;
+	text-align: center;
+}
+.add{
+	border: 1rpx solid #333333;
+	float: left;
+	line-height: 70rpx;
+	height: 70rpx;
+	width: 70rpx;
+	text-align: center;
+}
+.submit{
+	text-align: center;
+	margin: 20rpx 0;
+}
+.submit .button{
+	margin-right: 10rpx;
+}
+.files{
+	display: flex;
+	flex-wrap: wrap;
+}
+.files image{
+	width: 100rpx;
+	height: 100rpx;
+	
+}
+.files .row{
+	margin:10rpx;
+	text-align: center;
+}
+.files .icon{
+	margin:10rpx;
+}
+.name{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+	width: 200rpx;
+}
+.tips{
+	padding:20rpx;
+	border-bottom: 1rpx solid #e4e7ed;
+}
+.acount{
+	padding:20rpx;
+	line-height: 50rpx;
+}
+.nav{
+  position: fixed;
+  bottom:0;
+  width:100%;
+  left:0;
+  background-color: #ffffff;
+  border-top: 1rpx solid #f2f2f2;
+  z-index: 3;
+}
+.nav .left{
+  width:20%;
+  text-align: center;
+  padding: 5rpx 0;
+}
+.nav .left .img{
+  height:60rpx;
+  line-height: 60rpx;
+}
+.nav .left .img image{
+  width:60rpx;
+  height:60rpx;
+}
+.nav .left .name{
+  height:30rpx;
+  line-height:30rpx;
+  font-size:23rpx;
+  color:#646464;
+  width: auto;
+}
+.nav .active .name{
+  color:#046fba;
+} 
+
+.pay_info{
+	padding:20rpx;
+}
+.pay_info .u-radio{
+	width: 100%!important;
+}
+.pay_info .sub{
+	margin:20rpx 0;
+	text-align: center;
+}

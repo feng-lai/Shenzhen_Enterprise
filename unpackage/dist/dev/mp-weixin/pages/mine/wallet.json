@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "我的钱包",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-line": "/uview-ui/components/u-line/u-line",
+    "u-card": "/uview-ui/components/u-card/u-card",
+    "u-empty": "/uview-ui/components/u-empty/u-empty",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-radio-group": "/uview-ui/components/u-radio-group/u-radio-group",
+    "u-radio": "/uview-ui/components/u-radio/u-radio",
+    "u-toast": "/uview-ui/components/u-toast/u-toast"
+  }
+}

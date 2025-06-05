@@ -1,0 +1,50 @@
+
+.pay_info {
+	height: 100vh;
+	background-color: #f3f4f8;
+}
+.pay_info .top{
+	height: 200rpx;
+	background-color: #669bfb;
+	color: #fff;
+	text-align: center;
+	padding-top: 50rpx;
+}
+.pay_info .title{
+	height:100rpx;
+	line-height: 100rpx;
+	background-color:#5f96f9;
+	color: #fff;
+	margin: 0;
+	border-radius: 0;
+	text-align: center;
+}
+.pay_info .top .price{
+	font-size: 60rpx;
+}
+.pay_info .top .price text{
+	font-size: 26rpx;
+}
+.pay_info .type{
+	height: 134rpx;
+	line-height: 134rpx;
+	margin-bottom: 30rpx;
+	background-color: #fffbff;
+	padding-left: 20rpx;
+}
+.pay_info .u-radio{
+	height: 134rpx;
+	line-height: 134rpx;
+	margin-bottom: 30rpx;
+	background-color: #fffbff;
+	padding-left: 20rpx;
+}
+.pay_info u-button{
+	background-color: #669bfb;
+}
+.pay_info .sub {
+	margin: 20rpx 0;
+	text-align: center;
+}
+
+

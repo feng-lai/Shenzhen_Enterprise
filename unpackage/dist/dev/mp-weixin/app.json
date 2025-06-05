@@ -1,0 +1,76 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/trend/trend",
+    "pages/issue/issue",
+    "pages/contact/contact",
+    "pages/mine/mine",
+    "pages/company/company",
+    "pages/mine/company",
+    "pages/auth/auth",
+    "pages/search/search",
+    "pages/search/company",
+    "pages/search/companyResult",
+    "pages/footprint/footprint",
+    "pages/login/login",
+    "pages/mine/card",
+    "pages/mine/trend",
+    "pages/mine/auth",
+    "pages/trend/detail",
+    "pages/banner/banner",
+    "pages/tag/tag",
+    "pages/article/detail",
+    "pages/work/work",
+    "pages/work/agreement",
+    "pages/search/work",
+    "pages/search/workResult",
+    "pages/docs/docs",
+    "pages/notice/notice",
+    "pages/msg/msg",
+    "pages/msg/code_add",
+    "pages/msg/code_add2",
+    "pages/msg/code",
+    "pages/project/project",
+    "pages/project/entry",
+    "pages/project/detail",
+    "pages/mine/project",
+    "pages/mine/project_detail",
+    "pages/mine/project_detail2",
+    "pages/agreement/agreement",
+    "pages/article/pay",
+    "pages/mine/wallet",
+    "pages/bill/bill",
+    "pages/bill/detail",
+    "pages/payCode/payCode",
+    "pages/code_pic/code_pic",
+    "pages/hp/hp",
+    "pages/hp/banner_detail",
+    "pages/cs/cs",
+    "pages/activity/activity",
+    "pages/hp/pay",
+    "pages/hp/product_detail",
+    "pages/wifi/wifi"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/sub",
+      "pages": [
+        "pages/chat/chat",
+        "pages/chat/detail"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "plugins": {
+    "chatGroupPlugin": {
+      "version": "1.1.2",
+      "provider": "wxaae6519cee98d824"
+    }
+  },
+  "usingComponents": {}
+}

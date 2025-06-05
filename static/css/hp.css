@@ -1,0 +1,600 @@
+page{
+	background-color: #e8e8e8;
+}
+.card{
+	margin: 0 auto;
+	border-radius: 22rpx;
+	background-color: #ebebeb;
+	width: 710rpx;
+	height: 429rpx;
+	margin-top: 28rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.card .content{
+	width: 676rpx;
+	height: 387rpx;
+	background-color: #ffffff;
+	position: relative;
+	box-shadow: 2px 3px 1px #ccc;
+}
+
+.card .content .code{
+	position: absolute;
+	width: 141rpx;
+	height: 160.5rpx;
+	bottom: 30rpx;
+	right: 30rpx;
+}
+
+.card .content .line1{
+	width: 7rpx;
+	height: 96rpx;
+	background-color: #2f68c6;
+	position: absolute;
+	right: 39rpx;
+	top: 0;
+}
+
+.card .content .line2{
+	width: 7rpx;
+	height: 119rpx;
+	background-color: #2f68c6;
+	position: absolute;
+	right: 19rpx;
+	top: 0;
+}
+
+.card .content .company{
+	height: 122rpx;
+	line-height: 122rpx;
+}
+
+.card .content .company image{
+	width: 89rpx;
+	height: 89rpx;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 25rpx;
+	margin-right: 65rpx;
+}
+
+.card .content .company .row{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: initial;
+	font-size: 22rpx;
+	color: #5d5f63;
+}
+
+.card .content .user{
+	height: 69rpx;
+	position: relative;
+	width: 676rpx;
+}
+
+.card .content .user .line{
+	height: 7rpx;
+	background-color: #2f68c6;
+	width: 676rpx;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -3.5rpx;
+}
+
+.card .content .user .name{
+	position: absolute;
+	height: 69rpx;
+	line-height: 69rpx;
+	width: 676rpx;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.card .content .user .name .part2{
+	line-height: 34rpx;
+	color: #56585c;
+	font-size: 17rpx;
+}
+
+.card .content .user .name .part text{
+	display: inline-block;
+	width: 152rpx;
+	height: 69rpx;
+	text-align: center;
+	background-color: #2f69c9;
+	border-radius: 10rpx;
+	color: #ffffff;
+	font-size: 27rpx;
+	margin-left: 55rpx;
+	margin-right: 32rpx;
+}
+
+.card .content .other{
+	margin-left: 55rpx;
+	color: #000;
+	font-size: 18rpx;
+	line-height: 50rpx;
+	margin-top: 10rpx;
+}
+
+.card .content .other u-icon{
+	margin-right: 10rpx;
+}
+
+.card .content .other .phone{
+	padding: 4rpx;
+	border-radius: 100%;
+	background-color: #2e6aca;
+}
+
+.card .content2{
+	display: flex;
+	justify-content: space-between;
+}
+.card .content2 .c_name{
+	width: 326rpx;
+	height: 47rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(to right, #a8d69d , #139382);
+	color: #fff;
+	font-size: 24rpx;
+	border-top-right-radius: 23rpx;
+	border-bottom-right-radius: 23rpx;
+	font-weight: bold;
+	margin-top: 10rpx;
+}
+.card .content2 .text{
+	margin-left: 100rpx;
+	font-size: 16rpx;
+	color: #333333;
+}
+
+.card .content2 .text .name{
+	font-size: 52rpx;
+	height: 120rpx;
+	display: flex;
+	align-items: center;
+	color: #088d7d;
+}
+.card .content2 .text .tag{
+	font-size: 24rpx;
+	color: #088d7d;
+	margin-bottom: 30rpx;
+}
+.card .content2 .text .o{
+	margin-bottom: 12rpx;
+	display: flex;
+	align-items: center;
+}
+.card .content2 .text .o i{
+	display: inline-block;
+	margin-right: 12rpx;
+	background-color: #6ec8bd;
+	width: 8rpx;
+	height: 8rpx;
+	border-radius: 8rpx;
+}
+.card .content2 .logo{
+	width: 141rpx;
+	height: 160.5rpx;
+	margin-right: 30rpx;
+}
+.card .bottom{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 18rpx;
+	width: 100%;
+	display: flex;
+}
+.card .bottom .bg1{
+	height: 18rpx;
+	width: 70%;
+	background-image: linear-gradient(to right, #a2d4a2 , #3a7469);
+}
+.card .bottom .bg2{
+	height: 18rpx;
+	width: 30%;
+	background-image: linear-gradient(to right, #67beb2 , #51998e);
+}
+.card .content3{
+	display: flex;
+	justify-content: space-between;
+	background: url('https://xcx.huitengzx.com/images/profile_style3_bg.png') no-repeat right top;
+	background-size: cover;
+	height: 387rpx;
+}
+.card .content3 .c_left{
+	margin-left: 100rpx;
+}
+.card .content3 .c_left .cname{
+	height: 90rpx;
+	line-height: 90rpx;
+	font-size: 28rpx;
+	font-weight: bold;
+	color: #0084bc;
+}
+.card .content3 .c_left .name{
+	font-size: 52rpx;
+	font-weight: bold;
+	height: 76rpx;
+	line-height: 76rpx;
+	color: #000;
+} 
+.card .content3 .c_left .tag{
+	height:43rpx;
+	line-height: 43rpx;
+	font-size: 16rpx;
+	color: #0084bc;
+	margin-bottom: 22rpx;
+}
+.card .content3 .c_left .o{
+	margin-bottom: 12rpx;
+	font-size: 16rpx;
+	color: #0084bc;
+	display: flex;
+	align-items: center;
+}
+.card .content3 .c_left .o text{
+	font-size: 20rpx;
+	color: #333333;
+	margin-left: 28rpx;
+}
+.card .content3 .logo{
+	width: 141rpx;
+	height: 141rpx;
+	margin: 30rpx 30rpx 0 0 ;
+}
+.swiper{
+	width: 710rpx;
+	margin: 20rpx auto;
+	height: 410rpx;
+}
+.swiper swiper{
+	width: 710rpx;
+	height: 410rpx!important;
+}
+
+.company_info{
+	padding: 0 20rpx;
+}
+
+.company_info .title{
+	height: 90rpx;
+	line-height: 90rpx;
+	text-align: center;
+	position: relative;
+	font-size: 25rpx;
+	color: #2f69c9;
+	font-weight: bold;
+}
+
+.company_info .title .more{
+	position: absolute;
+	height: 90rpx;
+	line-height: 90rpx;
+	right: 9rpx;
+	top: 0;
+}
+
+.company_info .content{
+	background:#ffffff url('https://xcx.huitengzx.com/images/dsc.png') no-repeat center center;
+	background-size: 665rpx 592rpx;
+	height: 640rpx;
+	width: 710rpx;
+	position: relative;
+}
+.company_info .content2{
+	background:#ffffff url('https://xcx.huitengzx.com/images/profile_style2.png') no-repeat center center;
+	background-size: 710rpx 418rpx;
+	height: 418rpx;
+	width: 710rpx;
+	position: relative;
+}
+.company_info .content3{
+	background:#ffffff url('https://xcx.huitengzx.com/images/profile_style3.png') no-repeat center center;
+	background-size: 710rpx 418rpx;
+	height: 418rpx;
+	width: 710rpx;
+	position: relative;
+}
+
+.company_info .content .dsc{
+	position: absolute;
+	width: 560rpx;
+	height: 350rpx;
+	top: 180rpx;
+	left: 50%;
+	margin-left: -280rpx;
+	font-size: 28rpx;
+	color: #000000;
+	font-weight: bold;
+	word-wrap: break-word;
+}
+
+.company_info .content2 .dsc{
+	position: absolute;
+	width: 604rpx;
+	height: 287rpx;
+	top: 69rpx;
+	left: 50%;
+	margin-left: -302rpx;
+	font-size: 28rpx;
+	color: #000000;
+	font-weight: bold;
+	padding: 20rpx;
+	word-wrap: break-word;
+}
+
+.company_info .content3 .dsc{
+	position: absolute;
+	width: 604rpx;
+	height: 287rpx;
+	top: 69rpx;
+	left: 50%;
+	margin-left: -302rpx;
+	font-size: 28rpx;
+	color: #000000;
+	font-weight: bold;
+	padding: 20rpx;
+	word-wrap: break-word;
+}
+
+.product{
+	padding: 0 20rpx;
+}
+
+.product .title{
+	height: 90rpx;
+	line-height: 90rpx;
+	text-align: center;
+	font-size: 25rpx;
+	color: #2f69c9;
+	font-weight: bold;
+}
+
+.product .content .row{
+	border-radius: 15rpx;
+	background-color: #ffffff;
+	padding: 10rpx 30rpx;
+	margin-bottom: 20rpx;
+	position: relative;
+}
+
+.product .content .row image{
+	width: 300rpx;
+	height: 300rpx;
+}
+
+.product .content .row .right{
+	width: 300rpx;
+	display: inline-block;
+	height: 300rpx;
+	position: relative;
+}
+
+.product .content .row .right .name{
+	font-size: 30rpx;
+	color: #000;
+	margin-bottom: 20rpx;
+}
+
+.product .content .row .right .tag text{
+	background-color: #2BAF87;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	height:30rpx;
+	width: fit-content;
+	padding: 0 20rpx; 
+	border-radius: 10rpx; 
+	border: 1rpx solid #f5f5f5; 
+	margin-right: 10rpx; 
+	margin-bottom: 10rpx;
+	font-size: 26rpx;
+}
+
+.product .content .row .right .talk{
+	position: absolute;
+	left: 0rpx;
+	bottom: 0rpx;
+}
+
+.product .content .row .right .talk text{
+	display: inline-block;
+	width: 210rpx;
+	line-height: 58rpx;
+	background-color: #2e6bc8;
+	color: #ffffff;
+	text-align: center;
+	font-size: 28rpx;
+	border-radius: 10rpx;
+	margin-top: 35rpx;
+}
+
+
+.video .title{
+	height: 90rpx;
+	line-height: 90rpx;
+	text-align: center;
+	font-size: 25rpx;
+	color: #2f69c9;
+	font-weight: bold;
+}
+
+.video .content .row{
+	border-radius: 15rpx;
+	background-color: #ffffff;
+	padding-top: 20rpx;
+	margin-bottom: 20rpx;
+}
+
+.video .content .row .video{
+	width: 668rpx;
+	height: 400rpx;
+	margin: 0 auto;
+}
+
+.video .content .row .video video{
+	width: 668rpx;
+	height: 400rpx;
+}
+
+.video .content .row .text{
+	padding: 0 30rpx;
+	line-height: 70rpx;
+	font-size: 24rpx;
+	border-top: 1rpx solid #eeeff1;
+	margin-top: 29rpx;
+}
+
+.team{
+	padding: 0 20rpx;
+}
+
+.team .title{
+	height: 90rpx;
+	line-height: 90rpx;
+	text-align: center;
+	font-size: 25rpx;
+	color: #2f69c9;
+	font-weight: bold;
+}
+
+.team .swiper{
+	height: 410rpx;
+}
+
+
+
+.team .content{
+	border-radius: 15rpx;
+	background-color: #ffffff;
+	padding-top: 20rpx;
+}
+
+.team .dsc{
+	padding: 20rpx;
+	margin-top: 20rpx;
+	border: 1rpx solid #eeeff2;
+	font-size: 28rpx;
+	color: #84878f;
+}
+
+.recruit{
+	padding: 0 20rpx;
+	padding-bottom: 50rpx;
+}
+
+.recruit .title{
+	height: 90rpx;
+	line-height: 90rpx;
+	text-align: center;
+	font-size: 25rpx;
+	color: #2f69c9;
+	font-weight: bold;
+}
+
+.recruit .content{
+	border-radius: 15rpx;
+	background-color: #ffffff;
+}
+
+.recruit .content .row{
+	padding:20rpx;
+	color: #a9a9a9;
+	font-size: 24rpx;
+	border-bottom: 1rpx solid #eeeff1;
+}
+.recruit .content .top{
+	display: flex;
+	justify-content: space-between;
+	padding-right: 60rpx;
+}
+
+.recruit .content .top .post{
+	font-size: 28rpx;
+	color: #000;
+}
+
+.recruit .content .contact{
+	line-height: 70rpx;
+	text-align: center;
+	font-size: 30rpx;
+	color: #000;
+}
+
+.recruit .content .contact u-icon{
+	padding: 7rpx;
+	border-radius: 100%;
+	background-color: #2e6aca;
+	margin-right: 20rpx;
+}
+
+.contacts{
+	padding: 0 20rpx;
+}
+
+.contacts .title{
+	height: 90rpx;
+	line-height: 90rpx;
+	text-align: center;
+	font-size: 25rpx;
+	color: #2f69c9;
+	font-weight: bold;
+}
+
+.contacts .content{
+	border-radius: 15rpx;
+	background-color: #ffffff;
+	padding: 0 20rpx;
+	line-height: 70rpx;
+}
+
+.contacts .content .ci image{
+	width: 36rpx;
+	height: 26rpx;
+	margin-right: 20rpx;
+}
+
+.contacts .content .ca image{
+	width: 37rpx;
+	height: 29rpx;
+	margin-right: 20rpx;
+}
+
+.map{
+	height: 318rpx;
+	width: 100%;
+}
+.to_login{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

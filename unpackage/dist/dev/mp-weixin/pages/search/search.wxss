@@ -1,0 +1,163 @@
+.tops{
+  position: fixed;
+  width: 100%;
+  top:0;
+
+
+
+  left: 0;
+  z-index: 5;
+  background-color: #ffffff;
+  height:100rpx;
+  line-height: 100rpx;
+  text-align: center;
+}
+.tops input{
+  display: inline-block;
+  width: 600rpx;
+  height: 60rpx;
+  border:3rpx solid #ff4600;
+  border-radius: 30rpx;
+  vertical-align: middle;
+  padding-left: 30rpx;
+  font-size: 28rpx;
+  color:#333333;
+  text-align: left;
+}
+.pageOne{
+  background-color: #ffffff;
+  height: 100%;
+  margin-top: 100rpx;
+}
+.pageOne>.history{
+  padding:25rpx 20rpx;
+}
+.pageOne>.history>.top{
+  height: 65rpx;
+  line-height: 65rpx;
+  font-size: 32rpx;
+  color:#333333;
+  font-weight: 600;
+}
+.pageOne>.history>.info{
+  margin-top: 15rpx;
+}
+.pageOne>.history>.info>.left{
+  line-height: 60rpx;
+  padding: 0 20rpx;
+  font-size: 24rpx;
+  color:#666666;
+  background-color: #f8f8f8;
+  border-radius: 30rpx;
+  margin-right: 28rpx;
+  margin-bottom: 17rpx;
+}
+.empty{
+	height: 600rpx;
+	line-height: 600rpx;
+	text-align: center;
+}
+.pageTwo{
+  padding: 0 20rpx;
+  background-color: #ffffff;
+  height: 100%;
+  margin-top: 100rpx;
+}
+.pageTwo>.row{
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1rpx solid #f6f6f6;
+  font-size: 26rpx;
+  color: #333333;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  padding-right: 35rpx;
+  background: url("https://img.maiiepay.com/images/searchArrow.png") no-repeat right center;
+  background-size: 20rpx 20rpx;
+}
+.pageThree{
+  height: 100%;
+  padding-top: 100rpx;
+}
+.pageThree>.product{
+  height: 100%;
+  padding-top: 20rpx;
+}
+.pageThree>.option{
+  height: 90rpx;
+  line-height: 90rpx;
+}
+.pageThree>.option>.left{
+  width: 50%;
+  font-size: 32rpx;
+  color:#333333;
+  text-align: center;
+}
+.pageThree>.option>.active{
+  color:#fa496e;
+}
+.pageThree>.product>.entry{
+  background-color: #ffffff;
+  padding-bottom: 20rpx;
+}
+.entry>.row {
+	background-color: #fff;
+	display: block;
+	border-bottom: 20rpx solid #f5f5f5;
+}
+.entry>.row:last-child {
+	border-bottom: 0;
+}
+.entry>.row>.user{
+	border-bottom: 1rpx solid #f5f5f5;
+	height: 100rpx;
+	padding: 10rpx 20rpx;
+}
+.entry>.row>.user image{
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 100rpx;
+	float: left;
+}
+.entry>.row>.user .text{
+	line-height: 50rpx;
+	margin-left: 20rpx;
+}
+.entry>.row>.user .right{
+	height: 100rpx;
+	line-height: 100rpx;
+}
+.entry>.row>.content{
+	padding: 10rpx 20rpx;
+}
+.entry>.row>.content>.img {
+	width: 135rpx;
+	height: 135rpx;
+	text-align: center;
+	margin-right: 10rpx;
+}
+.entry>.row>.content>.left>image {
+	max-width: 135rpx;
+	height: 135rpx;
+	border-radius: 10rpx;
+}
+.entry>.row>.content>.left>.desc {
+	width: 500rpx;
+	font-size: 20rpx;
+	color: #999999;
+	line-height: 35rpx;
+	display: -webkit-box; 
+	-webkit-box-orient: vertical; 
+	-webkit-line-clamp: 3; 
+	overflow: hidden;
+}
+.entry>.row>.content>.left>.title {
+	color: #000;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 500rpx;
+}
+

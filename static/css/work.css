@@ -1,0 +1,50 @@
+
+.form{
+	border-top: 1rpx solid #e4e4e4;
+}
+
+.group{
+	padding: 0 20rpx;
+	line-height: 100rpx;
+	border-bottom: 1rpx solid #e4e4e4;
+}
+.group .left{
+	max-width: 550rpx;
+}
+
+.group .left image{
+	width: 100rpx;
+	height: 100rpx;
+}
+
+.group .desc{
+	height: 550rpx;
+}
+
+.group textarea{
+	width:550rpx;
+    line-height: 30rpx;
+	padding-top: 30rpx;
+	padding-bottom: 150rpx;
+}
+
+.group .text{
+	width: 160rpx;
+	text-align: left;
+} 
+.group radio{
+	margin-right: 10rpx;
+}
+.group input{
+	height: 100rpx;
+	line-height: 100rpx;
+	width: 550rpx;
+}
+.group button{
+	vertical-align: middle;
+}
+.submit{
+	text-align: center;
+	margin-top: 30rpx;
+	margin-bottom: 120rpx;
+}

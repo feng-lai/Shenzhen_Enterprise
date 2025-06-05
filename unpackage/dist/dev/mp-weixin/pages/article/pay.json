@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "支付",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-radio-group": "/uview-ui/components/u-radio-group/u-radio-group",
+    "u-radio": "/uview-ui/components/u-radio/u-radio"
+  }
+}

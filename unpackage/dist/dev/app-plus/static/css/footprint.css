@@ -1,0 +1,130 @@
+.option {
+	display: flex;
+	justify-content: space-around;
+	height: 100rpx;
+	line-height: 100rpx;
+}
+
+.option .active text {
+	border-bottom: 6rpx solid #0066b3;
+	color: #0066b3;
+	display: inline-block;
+	height: 60rpx;
+	line-height: 60rpx;
+}
+
+.company .row {
+	padding: 0 20rpx;
+	border-bottom: 1rpx solid #f5f5f5;
+}
+
+.company .row .date {
+	height: 90rpx;
+	line-height: 90rpx;
+}
+
+.empty{
+	height: 800rpx;
+	line-height: 800rpx;
+	text-align: center;
+}
+
+.company .row .img {
+	height: 117rpx;
+	width: 117rpx;
+	border: 2rpx solid #f5f5f5;
+	border-radius: 2rpx;
+	margin-right: 29rpx;
+}
+
+.company .row .text{
+	max-width: 550rpx;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+}
+
+.company .row image {
+	max-height: 116rpx;
+	max-width: 116rpx;
+	vertical-align: middle;
+	border-radius: 2rpx;
+}
+
+.company .row .list {
+	margin-bottom: 20rpx;
+}
+
+.company {
+	padding-top: 90rpx;
+}
+
+.intention {
+	padding-top: 90rpx;
+}
+
+.intention .row {
+	padding: 0 20rpx;
+	border-bottom: 1rpx solid #f5f5f5;
+}
+
+.intention .row .date {
+	height: 90rpx;
+	line-height: 90rpx;
+}
+
+.intention .row .list {
+	margin-bottom: 20rpx;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+
+.container999 {
+	width: 100vw;
+	font-size: 28upx;
+	color: #6B8082;
+	position: relative;
+}
+
+
+.card {
+	width: 90%;
+	height: 368upx;
+	background-color: white;
+	margin: 0 auto 42upx auto;
+	background: #FFFFFF;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.10);
+	border-radius: 5px;
+	position: relative;
+}
+
+.noCard {
+	width: 90%;
+	height: 200upx;
+	margin: auto;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #999999;
+	box-shadow: 0 0 10upx 0 rgba(0, 0, 0, 0.10);
+	border-radius: 10upx;
+}
+
+
+.nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #ffffff;
+	color: white;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	font-size: 24upx;
+	z-index: 996;
+}

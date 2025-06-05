@@ -1,0 +1,434 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/trend/trend",
+			"style": {
+				"navigationBarTitleText": "最新动态"
+			}
+		},
+		{
+			"path": "pages/issue/issue",
+			"style": {
+				"navigationBarTitleText": "发布"
+			}
+		},
+		{
+			"path": "pages/contact/contact",
+			"style": {
+				"navigationBarTitleText": "联系我们"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的主页"
+			}
+		}, {
+			"path": "pages/company/company",
+			"style": {
+				"navigationBarTitleText": "公司详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mine/company",
+			"style": {
+				"navigationBarTitleText": "我的公司",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/auth/auth",
+			"style": {
+				"navigationBarTitleText": "认证",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/search/company",
+			"style": {
+				"navigationBarTitleText": "找公司",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/search/companyResult",
+			"style": {
+				"navigationBarTitleText": "搜索结果",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/footprint/footprint",
+			"style": {
+				"navigationBarTitleText": "足迹",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mine/card",
+			"style": {
+				"navigationBarTitleText": "我的名片",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mine/trend",
+			"style": {
+				"navigationBarTitleText": "我的意向",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mine/auth",
+			"style": {
+				"navigationBarTitleText": "我的认证",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/trend/detail",
+			"style": {
+				"navigationBarTitleText": "意向详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/banner/banner",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tag/tag",
+			"style": {
+				"navigationBarTitleText": "tag词",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/article/detail",
+			"style": {
+				"navigationBarTitleText": "文章详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/work/work",
+			"style": {
+				"navigationBarTitleText": "信息登记",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/work/agreement",
+			"style": {
+				"navigationBarTitleText": "政策协议",
+				"enablePullDownRefresh": false
+			}
+
+		},{
+			"path": "pages/search/work",
+			"style": {
+				"navigationBarTitleText": "找工人",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/search/workResult",
+			"style": {
+				"navigationBarTitleText": "找工人结果",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/docs/docs",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/notice/notice",
+			"style": {
+				"navigationBarTitleText": "通知",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/msg/msg",
+			"style": {
+				"navigationBarTitleText": "我的短信模板",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/msg/code_add",
+			"style": {
+				"navigationBarTitleText": "短信编辑",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/msg/code_add2",
+			"style": {
+				"navigationBarTitleText": "短信编辑",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/msg/code",
+			"style": {
+				"navigationBarTitleText": "短信模板详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/project/project",
+			"style": {
+				"navigationBarTitleText": "招募合作",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/project/entry",
+			"style": {
+				"navigationBarTitleText": "招募动态",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/project/detail",
+			"style": {
+				"navigationBarTitleText": "招募合作详情",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/mine/project",
+			"style": {
+				"navigationBarTitleText": "我的项目",
+				"enablePullDownRefresh": false
+			}
+		}
+		, {
+			"path": "pages/mine/project_detail",
+			"style": {
+				"navigationBarTitleText": "项目详情",
+				"enablePullDownRefresh": false
+			}
+		
+		},
+		{
+			"path": "pages/mine/project_detail2",
+			"style": {
+				"navigationBarTitleText": "项目详情",
+				"enablePullDownRefresh": false
+			}
+		
+		}
+	    ,{
+            "path" : "pages/agreement/agreement",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "平台招募服务协议",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/article/pay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "支付", 
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/mine/wallet",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我的钱包", 
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/bill/bill",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "账单",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/bill/detail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "账单详情",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/payCode/payCode",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/code_pic/code_pic",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/hp/hp",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/hp/banner_detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/cs/cs",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的客服",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/activity/activity",
+			"style": {
+				"navigationStyle": "custom"
+			}
+        },{
+            "path" : "pages/hp/pay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/hp/product_detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+		    "path" : "pages/wifi/wifi",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		}
+    ],
+	"subPackages": [{
+		"root": "pages/sub",
+		"pages": [ 
+			{
+				"path" : "pages/chat/chat", 
+				"style" :                                                                                     
+				{
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": true
+				}
+				
+			},{
+				"path" : "pages/chat/detail",
+				"style" :                                                                                    
+				{
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": true
+				}
+				
+			}
+		]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	/* "tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#046fba",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/image/index.png",
+			"selectedIconPath": "static/image/indexs.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/trend/trend",
+			"iconPath": "static/image/trend.png",
+			"selectedIconPath": "static/image/trends.png",
+			"text": "最新动态"
+		}, {
+			"pagePath": "pages/issue/issue",
+			"iconPath": "static/image/issue.png",
+			"selectedIconPath": "static/image/issues.png",
+			"text": "发布"
+		}, {
+			"pagePath": "pages/contact/contact",
+			"iconPath": "static/image/contact.png",
+			"selectedIconPath": "static/image/contacts.png",
+			"text": "联系我们"
+		}, {
+			"pagePath": "pages/mine/mine",
+			"iconPath": "static/image/mine.png",
+			"selectedIconPath": "static/image/mines.png",
+			"text": "我的"
+		}]
+	}, */
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "pages/company/company", //模式名称
+			"path": "pages/company/company", //启动页面，必选
+			"query": "id=1" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

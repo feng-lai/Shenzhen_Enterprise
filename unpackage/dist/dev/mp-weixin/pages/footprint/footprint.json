@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "足迹",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "nav-tab": "/components/navTab"
+  }
+}

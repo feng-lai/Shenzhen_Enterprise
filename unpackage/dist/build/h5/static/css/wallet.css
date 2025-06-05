@@ -1,0 +1,90 @@
+.title {
+	text-align: center;
+	margin: 20rpx 0;
+}
+
+.title text {
+	color: #19BE6B;
+	font-weight: bold;
+	font-size: 36rpx;
+}
+
+.buy {
+	padding: 0 20rpx;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	padding: 0 20rpx;
+	padding-top: 10rpx;
+}
+
+.row button {
+	margin-right: 30rpx;
+	margin-bottom: 10rpx;
+}
+
+.other {
+	padding: 0 20rpx;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 20rpx;
+}
+
+.other text {
+	margin: 0 10rpx;
+}
+
+.submit {
+	padding: 0 20rpx;
+	text-align: right;
+}
+
+.submit button {
+	margin-left: 20rpx;
+}
+
+.bill {
+
+}
+
+.u-card-wrap {
+	background-color: $u-bg-color;
+	padding: 1px;
+}
+
+.u-body-item {
+	font-size: 32rpx;
+	color: #333;
+	padding: 20rpx 10rpx;
+}
+
+.u-body-item image {
+	width: 120rpx;
+	flex: 0 0 120rpx;
+	height: 120rpx;
+	border-radius: 8rpx;
+	margin-left: 12rpx;
+}
+.content{
+	max-height: 300rpx;
+	overflow: auto;
+}
+.refund{
+	padding: 0 20rpx;
+}
+.refund .input{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.refund .input input{
+	width: 120rpx;
+}
+
+.refund .input text{
+	margin-right: 20rpx;
+}

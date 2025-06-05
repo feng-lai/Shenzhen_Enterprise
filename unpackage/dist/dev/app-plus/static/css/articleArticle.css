@@ -1,0 +1,238 @@
+.group{
+	
+	padding: 0 20rpx;
+	border-bottom: 10rpx solid #f5f5f5;
+}
+
+.group .title{
+	text-align: center;
+	line-height: 150rpx;
+	font-size: 36rpx;
+}
+
+.group .desc{
+	line-height: 50rpx;
+	font-size: 26rpx;
+}
+
+.group .left{
+	line-height: 100rpx;
+	max-width: 500rpx;
+}
+
+.group .right{
+	line-height: 100rpx;
+	max-width: 500rpx;
+}
+
+.group .left image{
+	width: 100rpx;
+	height: 100rpx;
+}
+
+.group .text{
+	text-align: left;
+} 
+.group radio{
+	transform:scale(0.7)
+}
+.group input{
+	height: 100rpx;
+	line-height: 100rpx;
+}
+
+.group button{
+	vertical-align: middle;
+}
+
+
+.comment{
+	padding: 0 20rpx;
+	margin-top: 30rpx;
+	padding-bottom: 150rpx;
+}
+
+.comment .title{
+	font-size: 30rpx;
+	color:#333333;
+	margin-bottom: 38rpx;
+}
+.comment .entry .row .user{
+	line-height:47rpx;
+	height: 47rpx;
+}
+.comment .entry .row .user image{
+	width: 47rpx;
+	height: 47rpx;
+	border-radius: 47rpx;
+	vertical-align: middle;
+}
+.comment .entry .row .user text{
+	margin-left: 20rpx;
+	font-size: 20rpx;
+	color:#999999;
+	vertical-align: middle;
+}
+.comment .entry .row .content{
+	padding-left: 67rpx;
+	line-height: 32rpx;
+	font-size: 26rpx;
+	color:#333333;
+}
+.comment .all{
+	height: 107rpx;
+	line-height: 107rpx;
+	padding-left: 67rpx;
+	font-size: 28rpx;
+	color:#8590a6;
+}
+.comDetail{
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	background-color: #ffffff;
+	bottom: -100%;
+	left: 0;
+	border-top-right-radius: 10rpx;
+	border-top-left-radius: 10rpx;
+	transition: bottom 0.5s;
+}
+.input{
+	/**display: none;**/
+}
+.comDetails .input{
+	display: block;
+}
+.comDetails{
+	bottom:0;
+}
+.comDetail>.title{
+	height: 82rpx;
+	line-height: 82rpx;
+	border-bottom: 1rpx solid #e7e7e7;
+	position: fixed;
+	top: 0;
+	display: none;
+	width: 100%;
+	background-color: #ffffff;
+	z-index: 2;
+}
+.comDetails>.title{
+	display: block;
+}
+.comDetail>.title image{
+	height: 26rpx;
+	width: 26rpx;
+	margin-left: 42rpx;
+}
+.comDetail>.title text{
+	color:#5a5a5a;
+	font-size: 30rpx;
+	margin-left: 43rpx;
+}
+.comDetail .content{
+	padding-top: 82rpx;
+	height: 115%;
+	overflow: auto;
+}
+.comDetail .scrolltolower{
+	height: 100%;
+}
+.comDetail .content .row{
+	padding-left: 30rpx;
+	padding-top: 26rpx;
+	border-bottom: 1rpx solid #d3d3d3;
+}
+.comDetail .content .row:last-child{
+	border-bottom:0;
+}
+.comDetail .content .row .left{
+	width: 80rpx;
+}
+.comDetail .content .row .left image{
+	width: 60rpx;
+	height:60rpx;
+	border-radius: 60rpx;
+}
+.comDetail .content .row .right{
+	width: 640rpx;
+}
+.comDetail .content .row .right .name{
+	line-height: 40rpx;
+	font-size: 24rpx;
+	color:#333333;
+}
+.comDetail .content .row .right .desc{
+	line-height: 48rpx;
+	font-size: 26rpx;
+	color:#999999;
+}
+.comDetail .content .row .right .time{
+	height: 90rpx;
+	line-height: 90rpx;
+}
+.comDetail .content .row .right .time .left{
+	width: auto;
+}
+.comDetail .content .row .right .time .right{
+	width: auto;
+	margin-right: 30rpx;
+}
+.comDetail .content .row .right .time .right image{
+	height: 30rpx;
+	width: 30rpx;
+}
+.comDetail .content .row .right .reply .row{
+	border-top: 1rpx solid #d3d3d3;
+	border-bottom: 0;
+}
+.comDetail .content .row .right .reply .row .right{
+	width: 530rpx;
+}
+.comDetail .content .row .right .reply .row .right .name image{
+	width: 10rpx;
+	height: 10rpx;
+	vertical-align: middle;
+	margin: 0 10rpx;
+}
+.comDetail .content .row .right .reply .row .right .time .right{
+	width: auto;
+}
+.input{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #fff;
+	border-top: 1rpx solid #d3d3d3;
+}
+.input .title{
+	border: none;
+	height: 77rpx;
+	line-height: 77rpx;
+	font-size: 26rpx;
+	color:#999999;
+	padding-left: 60rpx;
+}
+.input textarea{
+	width: 550rpx;
+	padding-left: 60rpx;
+	height: 104rpx;
+	line-height: 104rpx;
+	font-size: 26rpx;
+	colo:#333333;
+}
+.input .right{
+	height: 104rpx;
+	line-height: 104rpx;
+	width: 130rpx;
+	text-align: center;
+	color:#b4dafe;
+	font-size: 26rpx;
+}
+.input .right button{
+	width: 130rpx;
+	font-size: 26rpx;
+	height: 104rpx;
+	line-height: 104rpx;
+}

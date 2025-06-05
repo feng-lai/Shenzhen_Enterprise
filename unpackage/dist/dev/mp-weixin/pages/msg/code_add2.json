@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "短信编辑",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "e-modal": "/components/e-modal/e-modal"
+  }
+}

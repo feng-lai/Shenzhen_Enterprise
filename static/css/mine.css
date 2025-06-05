@@ -1,0 +1,245 @@
+.top{
+	height:138rpx;
+	line-height: 138rpx;
+	padding: 0 20rpx;
+}
+.top .left{
+	height: 138rpx;
+}
+.top .left image{
+	height: 110rpx;
+	width: 110rpx;
+	border-radius: 110rpx;
+	vertical-align: middle;
+}
+.top .left .row{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 50rpx;
+	margin-left: 27rpx;
+	font-size: 30rpx;
+}
+
+.top .left .row text{
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.top .left .row .status{
+	color:#479ff9;
+}
+.list{
+	display: flex;
+	justify-content:space-around;
+	height: 100rpx;
+	line-height: 100rpx;
+	font-size: 28rpx;
+	width: 750rpx;
+	align-items: center;
+}
+.list>button::after{
+	border:none
+}
+.list>button{
+	background-color: inherit;
+	font-size: 28rpx;
+	height: 100rpx;
+	line-height: 100rpx;
+	padding: 0;
+	margin: 0;
+}
+.cum{
+	padding: 0 20rpx;
+}
+
+.cum .content{
+	background-color: #6e96ee;
+	border-radius: 20rpx;
+	padding: 20rpx;
+	color:#ffffff;
+	line-height: 50rpx;
+}
+.cum .content uni-icons{
+	vertical-align: middle;
+	margin-right: 5rpx;
+}
+.cum button{
+	vertical-align: middle;
+	margin-left: 20rpx;
+}
+.com{
+	
+}
+.com>.title{
+	font-size: 30rpx;
+	padding: 0 20rpx;
+	padding-top: 40rpx;
+	font-weight: bold;
+}
+
+.com .row{
+	border-bottom: 1rpx #f5f5f5 solid;
+	padding: 20rpx;
+}
+
+.com .row:last-child{
+	border-bottom: 0;
+}
+.com .tool{
+	display: flex;  
+	justify-content:flex-start; 
+	flex-wrap:wrap
+}
+
+.com .tool .left{
+	width: 25%;
+	text-align: center;
+	margin: 10rpx 0;
+	position: relative;
+}
+
+.com .tool .left u-icon{
+	font-size: 50rpx;
+}
+
+
+.com .tag{
+	margin: 20rpx 0 0 20rpx;
+	position: relative;
+}
+.com .tag .is{
+	position: absolute;
+	top: -20rpx;
+	right: 0;
+	color: red;
+	border: 1rpx solid red;
+}
+.com .tag .text{
+	background-color: #2BAF87;
+	color: #fff;
+	display: inline-block; 
+	height:30rpx;
+	line-height: 30rpx; 
+	padding: 0 20rpx; 
+	border-radius: 10rpx; 
+	border: 1rpx solid #f5f5f5; 
+	margin-left: 10rpx; 
+	margin-bottom: 10rpx;
+}
+
+.com .tag .active{
+	border: 1rpx solid red;
+}
+
+.com .row .img {
+	width: 135rpx;
+	height: 135rpx;
+	text-align: center;
+	margin-right: 10rpx;
+}
+
+.com .row .left image {
+	max-width: 135rpx;
+	height: 135rpx;
+	border-radius: 10rpx;
+}
+
+.com .row .left .desc {
+	width: 550rpx;
+	font-size: 20rpx;
+	color: #999999;
+	line-height: 35rpx;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+
+.com .row .left .title {
+	color: #000;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 550rpx;
+}
+
+.group{
+	padding: 0 20rpx;
+	line-height: 100rpx;
+	border-bottom: 1rpx solid #e4e4e4;
+}
+.group .left{
+	max-width: 500rpx;
+	margin-right: 20rpx;
+}
+
+.group .left .preview{
+	line-height: 100rpx;
+}
+
+.group button{
+	vertical-align: middle;
+	height: 50rpx;
+	line-height: 50rpx;
+	font-size: 26rpx;
+}
+
+.group image{
+	width: 100rpx;
+	height: 100rpx;
+}
+
+.group input{
+	height: 100rpx;
+	line-height: 100rpx;
+}
+
+.submit{
+	text-align: center;
+	margin: 30rpx 0;
+}
+
+.submit>button{
+	margin-right: 20rpx;
+}
+.nav{
+  position: fixed;
+  bottom:0;
+  width:100%;
+  left:0;
+  background-color: #ffffff;
+  border-top: 1rpx solid #f2f2f2;
+  z-index: 3;
+}
+.nav>.left{
+  width:20%;
+  text-align: center;
+  padding: 5rpx 0;
+}
+.nav>.left>.img{
+  height:60rpx;
+  line-height: 60rpx;
+}
+.nav>.left>.img>image{
+  width:60rpx;
+  height:60rpx;
+}
+.nav>.left>.name{
+  height:30rpx;
+  line-height:30rpx;
+  font-size:23rpx;
+  color:#646464;
+}
+.nav>.active>.name{
+  color:#046fba;
+}
+.add_msg{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	padding-bottom: 20rpx;
+	background-color: #fff;
+}

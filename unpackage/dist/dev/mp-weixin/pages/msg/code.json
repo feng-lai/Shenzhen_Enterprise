@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "短信模板详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "e-modal": "/components/e-modal/e-modal",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-radio-group": "/uview-ui/components/u-radio-group/u-radio-group",
+    "u-radio": "/uview-ui/components/u-radio/u-radio"
+  }
+}
